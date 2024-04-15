@@ -1,0 +1,12 @@
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\obj\Release\net8.0\PubTmp\Out\CodeAnalysis.exe
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\obj\Release\net8.0\PubTmp\Out\CodeAnalysis.dll
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\obj\Release\net8.0\PubTmp\Out\CodeAnalysis.deps.json
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\obj\Release\net8.0\PubTmp\Out\CodeAnalysis.runtimeconfig.json
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\obj\Release\net8.0\PubTmp\Out\CodeAnalysis.pdb
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\obj\Release\net8.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\obj\Release\net8.0\PubTmp\Out\Newtonsoft.Json.dll
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
