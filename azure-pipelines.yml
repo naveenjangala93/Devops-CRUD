@@ -1,0 +1,37 @@
+trigger:
+- master  # This pipeline will run whenever there are changes to the master branch.
+steps:
+- task: PowerShell@2
+  displayName: 'GET Request'
+  inputs: 
+    targetType: inline
+    script: |
+        $uri = "https://codeanalysis.azurewebsites.net/CodeAnalysis/GetName"
+        $response = Invoke-RestMethod -Uri $uri -Method Get
+        echo $response     
+- task: PowerShell@2
+  displayName: 'Send POST Request'
+  inputs:
+    targetType: inline
+    script: |
+        # Define the URL for the POST request
+        $uri = "https://codeanalysis.azurewebsites.net/CodeAnalysis/Post?age=29&name=nithih"
+
+        # Define the JSON payload to send in the request body
+        $jsonPayload = @{
+            age = "34"
+            name = "Navtish "
+            # Add more key-value pairs as needed for your API
+        } | ConvertTo-Json
+
+        # Send the POST request with the JSON payload
+        try {
+            $response = Invoke-RestMethod -Uri $uri -Method Post -ContentType 'application/json' -Body $jsonPayload
+
+            # Output the response from the API
+            echo $response
+        } catch {
+            # Handle any exceptions that occur during the API request
+            Write-Error "Failed to send POST request: $_"
+            exit 1  # Fail the task if the request fails
+        }
