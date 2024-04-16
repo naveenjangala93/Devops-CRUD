@@ -10,7 +10,7 @@ steps:
         $response = Invoke-RestMethod -Uri $uri -Method Get
         echo $response     
 - task: PowerShell@2
-  displayName: 'Send POST Request'
+  displayName: 'Age < 30'
   inputs:
     targetType: inline
     script: |
