@@ -1,0 +1,104 @@
+trigger:
+- master  # This pipeline will run whenever there are changes to the master branch.
+steps:
+- task: PowerShell@2
+  displayName: 'GET Request'
+  inputs: 
+    targetType: inline
+    script: |
+        $uri = "https://codeanalysis.azurewebsites.net/CodeAnalysis/GetName"
+        $response = Invoke-RestMethod -Uri $uri -Method Get
+        echo $response     
+- task: PowerShell@2
+  displayName: 'Send POST Request'
+  inputs:
+    targetType: inline
+    script: |
+        # Define the URL for the POST request
+        $uri = "https://codeanalysis.azurewebsites.net/CodeAnalysis/Post?age=10&name=nithih"
+        
+        # Send the POST request with JSON data in the request body
+        $response = Invoke-RestMethod -Uri $uri -Method Post -ContentType 'application/json'
+ 
+        echo $response 
+        if($response -eq "valid") {
+          echo "Correct response. Pipeline is continued"
+        }
+        else{
+          echo "Response is not correct. Task is terminated"
+          exit 1
+        }
+      
+- task: PowerShell@2
+  displayName: 'Send POST Request'
+  inputs:
+    targetType: inline
+    script: |
+      # Define the code snippet to send to the API
+      $codeSnippet = @"
+      using System;
+
+      public class Program
+      {
+          public static void Main()
+          {
+              Console.WriteLine("Hello, world!");
+          }
+      }
+      "@
+
+      # API endpoint URL
+      $apiUrl = "https://codeanalysis.azurewebsites.net/CodeAnalysis/CheckKeyWords"
+
+      # Convert the code snippet to JSON format for the request body
+      $body = @{
+          "codeSnippet" = $codeSnippet
+      } | ConvertTo-Json
+
+      # Send the code snippet as part of the request body to the API
+      $response = Invoke-RestMethod -Uri $apiUrl -Method Post -Body $body -ContentType 'application/json'
+
+      # Output the response received from the API
+      echo $response
+
+      # Check the response and take action accordingly
+      if ($response -eq "Keywords found in code snippet.") {
+          echo "Correct response. Pipeline is continued"
+      } else {
+          echo "Response is not correct. Task is terminated"
+          exit 1
+      }
+     
+- task: DotNetCoreCLI@2
+  displayName: Code Coverage
+  inputs:
+    command: 'test'
+    projects: '**/DevOpsTests/*.csproj'
+        # arguments: '--configuration release --output $(Build.ArtifactStagingDirectory) /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura'
+    # publishTestResults: true
+    arguments: '--configuration $(BuildConfiguration) --collect:"Code coverage"'
+    publishTestResults: true
+    publishCodeCoverage: true
+- task: BuildQualityChecks@9
+  inputs:
+    checkWarnings: true
+    warningFailOption: 'fixed'
+    warningThreshold: '20'
+    showStatistics: true
+    checkCoverage: true
+    coverageType: 'blocks'
+    coverageUpperThreshold: '90'
+  
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'publish'
+    publishWebProjects: false
+    projects: '**/*.csproj'
+    arguments: '--configuration release --output $(Build.ArtifactStagingDirectory) '
+  
+  
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'dll_file'
+    publishLocation: 'Container'
