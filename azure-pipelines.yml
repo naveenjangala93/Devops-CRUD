@@ -9,6 +9,53 @@ steps:
         $uri = "https://codeanalysis.azurewebsites.net/CodeAnalysis/GetName"
         $response = Invoke-RestMethod -Uri $uri -Method Get
         echo $response     
+
+- powershell: |
+    # Read the content of the file from the local directory
+    $filePath = "$(Build.SourcesDirectory)\DevOps\UnitTestDemo.cs"
+    $fileContent = Get-Content $filePath -Raw
+
+    # Send POST request to the API endpoint
+    $uri = "https://codeanalysis.azurewebsites.net/CodeAnalysis/CodeCheck"
+    $response = Invoke-RestMethod -Uri $uri -Method Post -ContentType "text/plain" -Body $fileContent
+
+    # Save the response as a test report file
+    $response | Out-File "$(Build.ArtifactStagingDirectory)\test_report.txt"
+
+    # Evaluate the score based on the content of the test report
+    $score = 0
+    if ($response -match "The code contains the method 'isNithish'.") {
+        $score += 1
+    }
+    if ($response -match "The code follows the naming convention.") {
+        $score += 1
+    }
+    if ($response -match "The code does not contain unnecessary using directives.") {
+        $score += 1
+    }
+
+    # Determine whether the pipeline should pass based on the score
+    if ($score -ge 2) {
+        Write-Host "Evaluation report indicates PASS criteria with a score of $score. Pipeline passed."
+        Write-Host "##vso[task.setvariable variable=TestResult;]Pass"
+    }
+    else {
+        Write-Host "Evaluation report indicates FAIL criteria with a score of $score. Pipeline failed."
+        Write-Host "##vso[task.setvariable variable=TestResult;]Fail"
+    }
+  displayName: 'Send POST Request to API and Generate Test Report'
+
+- task: PublishPipelineArtifact@1
+  inputs:
+    targetPath: '$(Build.ArtifactStagingDirectory)/test_report.txt'
+    artifact: 'TestReport'
+
+- script: |
+    if ("$(TestResult)" -eq "Fail") {
+        exit 1
+    }
+  displayName: 'Set Pipeline Result Based on Test Report'
+  condition: succeeded()
 - task: PowerShell@2
   displayName: 'Send POST Request'
   inputs:
