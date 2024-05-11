@@ -12,6 +12,7 @@ steps:
       
 
 - task: PowerShell@2
+  displayName: 'Code download'
   inputs:
     targetType: inline
     script: |
