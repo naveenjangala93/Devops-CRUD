@@ -12,8 +12,11 @@ steps:
 
 - powershell: |
     # Read the content of the file from the local directory
-    $filePath = "$(Build.SourcesDirectory)\UnitTestDemo.cs"
-    $fileContent = Get-Content $filePath -Raw
+    git clone https://github.com/naveenjangala93/CodeGrading temp
+
+    # Read the content of the file
+    $filePath = "$(System.DefaultWorkingDirectory)\temp\UnitTesting.cs"
+    $fileContent = Get-Content $filePath -Raw
 
     # Send POST request to the API endpoint
     $uri = "https://codeanalysis.azurewebsites.net/CodeAnalysis/CodeCheck"
