@@ -19,7 +19,7 @@ steps:
     $fileData = Get-Content $filePath -Raw
     $filContent = ConvertTo-Json $fileData
     
-    cat fileContent
+    cat $fileContent
 
     # # Send POST request to the API endpoint
     # $uri = "https://codeanalysis.azurewebsites.net/CodeAnalysis/CodeCheck"
