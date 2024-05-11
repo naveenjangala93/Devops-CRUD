@@ -25,7 +25,15 @@ steps:
       $uri = "https://codeanalysis.azurewebsites.net/CodeAnalysis/CodeCheck"  # Replace with the actual URL of your deployed project
       $response 
       try {
-        $response = Invoke-RestMethod -Uri $uri -Method Post -ContentType "text/plain" -Body $fileContent
+        # $response = Invoke-RestMethod -Uri $uri -Method Post -ContentType "text/plain" -Body $fileContent
+        $uri = 'https://localhost:7079/CodeAnalysis/CheckCode'
+        $headers = @{
+            'accept' = 'text/plain'
+            'Content-Type' = 'application/json'
+        }
+        $body = $fileContent
+        $response = Invoke-RestMethod -Uri $uri -Method Post -Headers $headers -Body $body
+        Write-Host "Response: $response"
       }
       catch {
           Write-Host "Error occurred while sending POST request: $_"
