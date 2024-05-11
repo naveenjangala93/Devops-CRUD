@@ -16,14 +16,11 @@ steps:
   inputs:
     targetType: inline
     script: |
-      $fileUrl: 'https://raw.githubusercontent.com/Thoparam-sai-nithish/DevOps/master/DevOpsTests/UnitTestDemoTests.cs'
-      $destination: './downloaded_file.json'
-      $fileContent = Get-Content -Path ./downloaded_file.json | ConvertFrom-Json
-      Write-Host "Downloaded file content (JSON): $fileContent"
-
-# Print the variable content (optional)
-- script: echo $fileContent
-
+      $fileUrl = 'https://raw.githubusercontent.com/Thoparam-sai-nithish/DevOps/master/DevOpsTests/UnitTestDemoTests.cs'
+      $destination = './downloaded_file.cs'
+      Invoke-WebRequest -Uri $fileUrl -OutFile $destination
+      $fileContent = Get-Content -Path $destination
+      Write-Host "Downloaded file content: $fileContent"
 
 - task: PublishPipelineArtifact@1
   inputs:
