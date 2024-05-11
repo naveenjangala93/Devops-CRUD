@@ -43,7 +43,7 @@ steps:
         Write-Host "Evaluation report indicates FAIL criteria with a score of $score. Pipeline failed."
         Write-Host "##vso[task.setvariable variable=TestResult;]Fail"
     }
-  displayName: 'Send POST Request to API and Generate Test Report'
+  displayName: 'TEST CODE'
 
 - task: PublishPipelineArtifact@1
   inputs:
