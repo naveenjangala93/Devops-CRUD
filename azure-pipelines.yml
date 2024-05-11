@@ -21,6 +21,35 @@ steps:
       Invoke-WebRequest -Uri $fileUrl -OutFile $destination
       $fileContent = Get-Content -Path $destination
       Write-Host "Downloaded file content: $fileContent"
+      # Send POST request to the API endpoint
+      $uri = "https://your-deployed-project-url/api/CodeAnalysis"  # Replace with the actual URL of your deployed project
+      $response = Invoke-RestMethod -Uri $uri -Method Post -ContentType "text/plain" -Body $fileContent
+
+      # Save the response as a test report file
+      $response | Out-File "$(Build.ArtifactStagingDirectory)\test_report.txt"
+
+      # Evaluate the score based on the content of the test report
+      $score = 0
+      if ($response -match "The code contains the method 'isNithish'.") {
+          $score += 1
+      }
+      if ($response -match "The code follows the naming convention.") {
+          $score += 1
+      }
+      if ($response -match "The code does not contain unnecessary using directives.") {
+          $score += 1
+      }
+
+      # Determine whether the pipeline should pass based on the score
+      if ($score -ge 2) {
+          Write-Host "Evaluation report indicates PASS criteria with a score of $score. Pipeline passed."
+          Write-Host "##vso[task.setvariable variable=TestResult;]Pass"
+      }
+      else {
+          Write-Host "Evaluation report indicates FAIL criteria with a score of $score. Pipeline failed."
+          Write-Host "##vso[task.setvariable variable=TestResult;]Fail"
+      }
+    displayName: 'Send POST Request to API and Generate Test Report'
 
 - task: PublishPipelineArtifact@1
   inputs:
@@ -33,6 +62,9 @@ steps:
     }
   displayName: 'Set Pipeline Result Based on Test Report'
   condition: succeeded()
+
+
+
 - task: PowerShell@2
   displayName: 'Send POST Request'
   inputs:
