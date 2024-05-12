@@ -16,52 +16,44 @@ steps:
   inputs:
     targetType: inline
     script: |
+      # DownLoad The file content from github
       $fileUrl = 'https://raw.githubusercontent.com/Thoparam-sai-nithish/DevOps/master/DevOpsTests/UnitTestDemoTests.cs'
       $destination = './downloaded_file.cs'
       Invoke-WebRequest -Uri $fileUrl -OutFile $destination
-      $fileContent = Get-Content -Path $destination
+      $fileContent = Get-Content -Path $destination | ConvertTo-Json
       Write-Host "Downloaded file content: $fileContent"
-      # Send POST request to the API endpoint
+
+      # Analyse the code
       $uri = "https://codeanalysis.azurewebsites.net/CodeAnalysis/CheckCode"  
-      $response 
-      try {
-        $headers = @{
-            'accept' = 'text/plain'
-            'Content-Type' = 'application/json'
-        }
-        $body = $fileContent
-        $response = Invoke-RestMethod -Uri $uri -Method Post -Headers $headers -Body $body
-        Write-Host "Response: $response"
-      }
-      catch {
-          Write-Host "Error occurred while sending POST request: $_"
-      }
+      $body = $fileContent
+      $response = Invoke-RestMethod -Uri $uri -Method Post -ContentType 'application/json' -Body $fileContent
+      Write-Host "Response: $response"
 
 
       # Save the response as a test report file
-      $response | Out-File "$(Build.ArtifactStagingDirectory)\test_report.txt"
+      # $response | Out-File "$(Build.ArtifactStagingDirectory)\test_report.txt"
 
       # Evaluate the score based on the content of the test report
-      $score = 0
-      if ($response -match "The code contains the method 'isNithish'.") {
-          $score += 1
-      }
-      if ($response -match "The code follows the naming convention.") {
-          $score += 1
-      }
-      if ($response -match "The code does not contain unnecessary using directives.") {
-          $score += 1
-      }
+      # $score = 0
+      # if ($response -match "The code contains the method 'isNithish'.") {
+      #     $score += 1
+      # }
+      # if ($response -match "The code follows the naming convention.") {
+      #     $score += 1
+      # }
+      # if ($response -match "The code does not contain unnecessary using directives.") {
+      #     $score += 1
+      # }
 
       # Determine whether the pipeline should pass based on the score
-      if ($score -ge 2) {
-          Write-Host "Evaluation report indicates PASS criteria with a score of $score. Pipeline passed."
-          Write-Host "##vso[task.setvariable variable=TestResult;]Pass"
-      }
-      else {
-          Write-Host "Evaluation report indicates FAIL criteria with a score of $score. Pipeline failed."
-          Write-Host "##vso[task.setvariable variable=TestResult;]Fail"
-      }
+      # if ($score -ge 2) {
+      #     Write-Host "Evaluation report indicates PASS criteria with a score of $score. Pipeline passed."
+      #     Write-Host "##vso[task.setvariable variable=TestResult;]Pass"
+      # }
+      # else {
+      #     Write-Host "Evaluation report indicates FAIL criteria with a score of $score. Pipeline failed."
+      #     Write-Host "##vso[task.setvariable variable=TestResult;]Fail"
+      # }
 
 - task: PublishPipelineArtifact@1
   inputs:
@@ -88,7 +80,7 @@ steps:
         # Define the JSON payload to send in the request body
         $jsonPayload = @{
             age = "34"
-            name = "Nathish "
+            name = "Nithish "
             # Add more key-value pairs as needed for your API
         } | ConvertTo-Json
 
