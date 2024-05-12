@@ -12,7 +12,7 @@ steps:
       code: |
         $fileContent
       "@
-      $yamlContent | Out-File -FilePath "$(System.DefaultWorkingDirectory)/file.yaml" -Encoding utf8
+      $yamlContent | Out-File -FilePath "$(System.DefaultWorkingDirectory)/file.json" -Encoding utf8
 
 - task: PowerShell@2
   displayName: 'POST Request'
@@ -20,9 +20,9 @@ steps:
     targetType: inline
     script: |
       $uri = "https://codeanalysis.azurewebsites.net/CodeAnalysis/CheckCode"
-      $yamlFilePath = "$(System.DefaultWorkingDirectory)/file.yaml"
-      $yamlContent = Get-Content -Path $yamlFilePath -Raw
-      $response = Invoke-RestMethod -Uri $uri -Method Post -ContentType "application/yaml" -Body $yamlContent
+      $jsonFilePath = "$(System.DefaultWorkingDirectory)/file.json"
+      $jsonContent = Get-Content -Path $jsonFilePath -Raw | ConvertFrom-Json
+      $response = Invoke-RestMethod -Uri $uri -Method Post -ContentType "application/json" -Body $jsonContent
       echo $response
 
 
