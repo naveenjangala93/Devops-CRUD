@@ -22,11 +22,9 @@ steps:
       $fileContent = Get-Content -Path $destination
       Write-Host "Downloaded file content: $fileContent"
       # Send POST request to the API endpoint
-      $uri = "https://codeanalysis.azurewebsites.net/CodeAnalysis/CodeCheck"  # Replace with the actual URL of your deployed project
+      $uri = "https://codeanalysis.azurewebsites.net/CodeAnalysis/CheckCode"  
       $response 
       try {
-        # $response = Invoke-RestMethod -Uri $uri -Method Post -ContentType "text/plain" -Body $fileContent
-        $uri = 'https://localhost:7079/CodeAnalysis/CheckCode'
         $headers = @{
             'accept' = 'text/plain'
             'Content-Type' = 'application/json'
@@ -64,7 +62,7 @@ steps:
           Write-Host "Evaluation report indicates FAIL criteria with a score of $score. Pipeline failed."
           Write-Host "##vso[task.setvariable variable=TestResult;]Fail"
       }
-    displayName: 'Send POST Request to API and Generate Test Report'
+    displayName: 'Check Code'
 
 - task: PublishPipelineArtifact@1
   inputs:
