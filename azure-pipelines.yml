@@ -12,59 +12,28 @@ steps:
     script: |
       $uri = "https://raw.githubusercontent.com/Thoparam-sai-nithish/DevOps/master/DevOpsTests/UnitTestDemoTests.cs"
       $fileContent = Invoke-RestMethod -Uri $uri -Method Get
+      echo "Downloaded File Content is: $fileContent"
 
-      $postUri = "https://codeanalysis.azurewebsites.net/CodeAnalysis/CheckCode"
-      $body = $fileContent | ConvertTo-Json
-      $response = Invoke-RestMethod -Uri $postUri -Method Post -ContentType "application/json" -Body $body
+      # CHECK KEYWORDS
+      $checkKeywordsUri = "https://codeanalysis.azurewebsites.net/CodeAnalysis/CheckKeywords"
+      $checkeywordsBody = @{
+          "CodeSnippet" = $fileContent
+      } | ConvertTo-Json
+      $response = Invoke-RestMethod -Uri $checkKeywordsUri -Method Post -ContentType "application/json" -Body $checkeywordsBody
+      echo "CHECK KEYWORDS RESPONSE : $response"
 
-      $response
-
-      # Save the response as a test report file
-      # $response | Out-File "$(Build.ArtifactStagingDirectory)\test_report.txt"
-
-      # Evaluate the score based on the content of the test report
-      # $score = 0
-      # if ($response -match "The code contains the method 'isNithish'.") {
-      #     $score += 1
-      # }
-      # if ($response -match "The code follows the naming convention.") {
-      #     $score += 1
-      # }
-      # if ($response -match "The code does not contain unnecessary using directives.") {
-      #     $score += 1
-      # }
-
-      # Determine whether the pipeline should pass based on the score
-      # if ($score -ge 2) {
-      #     Write-Host "Evaluation report indicates PASS criteria with a score of $score. Pipeline passed."
-      #     Write-Host "##vso[task.setvariable variable=TestResult;]Pass"
-      # }
-      # else {
-      #     Write-Host "Evaluation report indicates FAIL criteria with a score of $score. Pipeline failed."
-      #     Write-Host "##vso[task.setvariable variable=TestResult;]Fail"
-      # }
-
-- task: PublishPipelineArtifact@1
-  inputs:
-    targetPath: '$(Build.ArtifactStagingDirectory)/test_report.txt'
-    artifact: 'TestReport'
-
-- script: |
-    if ("$(TestResult)" -eq "Fail") {
-        exit 1
-    }
-  displayName: 'Set Pipeline Result Based on Test Report'
-  condition: succeeded()
-
-
-
+      # CHECK CODE
+      $checkCodeUri = "https://codeanalysis.azurewebsites.net/CodeAnalysis/CheckCode"
+      $checkCodeBody = $fileContent | ConvertTo-Json
+      $response = Invoke-RestMethod -Uri $checkCodeUri -Method Post -ContentType "application/json" -Body $checkCodeBody
+      echo "CHECK CODE RESPONSE : $response"
 - task: PowerShell@2
   displayName: 'Send POST Request'
   inputs:
     targetType: inline
     script: |
         # Define the URL for the POST request
-        $uri = "https://codeanalysis.azurewebsites.net/CodeAnalysis/Post?age=29&name=nithih"
+        $uri = "https://codeanalysis.azurewebsites.net/CodeAnalysis/Post?age=45&name=nithih"
 
         # Define the JSON payload to send in the request body
         $jsonPayload = @{
