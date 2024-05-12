@@ -6,27 +6,45 @@ steps:
   inputs: 
     targetType: inline
     script: |
-        $uri = "https://codeanalysis.azurewebsites.net/CodeAnalysis/GetName"
-        $response = Invoke-RestMethod -Uri $uri -Method Get
-        echo $response     
-      
+      $uri = "https://raw.githubusercontent.com/Thoparam-sai-nithish/DevOps/master/DevOpsTests/UnitTestDemoTests.cs"
+      $fileContent = Invoke-RestMethod -Uri $uri -Method Get
+      $yamlContent = @"
+      code: |
+        $fileContent
+      "@
+      $yamlContent | Out-File -FilePath "$(System.DefaultWorkingDirectory)/file.yaml" -Encoding utf8
 
 - task: PowerShell@2
-  displayName: 'Code download'
+  displayName: 'POST Request'
   inputs:
     targetType: inline
     script: |
-      # DownLoad The file content from github
-      $fileUrl = 'https://raw.githubusercontent.com/Thoparam-sai-nithish/DevOps/master/DevOpsTests/UnitTestDemoTests.cs'
-      $destination = './downloaded_file.cs'
-      Invoke-WebRequest -Uri $fileUrl -OutFile $destination
-      $fileContent = Get-Content -Path $destination -Raw
+      $uri = "https://codeanalysis.azurewebsites.net/CodeAnalysis/CheckCode"
+      $yamlFilePath = "$(System.DefaultWorkingDirectory)/file.yaml"
+      $yamlContent = Get-Content -Path $yamlFilePath -Raw
+      $response = Invoke-RestMethod -Uri $uri -Method Post -ContentType "application/yaml" -Body $yamlContent
+      echo $response
 
-      # Prepare JSON payload
-      $jsonPayload = @{
-        code = $fileContent
-      }
-      Write-Host "Downloaded file content: $jsonPayload"
+
+
+
+
+# - task: PowerShell@2
+#   displayName: 'Code download'
+#   inputs:
+#     targetType: inline
+#     script: |
+#       # DownLoad The file content from github
+#       $fileUrl = 'https://raw.githubusercontent.com/Thoparam-sai-nithish/DevOps/master/DevOpsTests/UnitTestDemoTests.cs'
+#       $destination = './downloaded_file.cs'
+#       Invoke-WebRequest -Uri $fileUrl -OutFile $destination
+#       $fileContent = Get-Content -Path $destination -Raw
+
+#       # Prepare JSON payload
+#       $jsonPayload = @{
+#         code = $fileContent
+#       }
+#       Write-Host "Downloaded file content: $jsonPayload"
 
       # Analyse the code
       # $uri = "https://codeanalysis.azurewebsites.net/CodeAnalysis/CheckCode "
