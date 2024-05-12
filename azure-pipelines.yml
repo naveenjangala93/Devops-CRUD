@@ -21,13 +21,13 @@ steps:
       $destination = './downloaded_file.cs'
       Invoke-WebRequest -Uri $fileUrl -OutFile $destination
       $fileContent = Get-Content -Path $destination -Raw
-      Write-Host "Downloaded file content: $fileContent"
 
       # Prepare JSON payload
       $jsonPayload = @{
         code = $fileContent
       }
-
+      Write-Host "Downloaded file content: $jsonPayload"
+      
       # Analyse the code
       $uri = "https://codeanalysis.azurewebsites.net/CodeAnalysis/CheckCode "
       $response = Invoke-RestMethod -Uri $uri -Method Post -ContentType 'application/json' -Body $jsonPayload
