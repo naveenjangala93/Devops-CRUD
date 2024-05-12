@@ -29,7 +29,7 @@ steps:
       }
 
       # Analyse the code
-      $uri = "https://codeanalysis.azurewebsites.net/CodeAnalysis/CheckCode"
+      $uri = "https://codeanalysis.azurewebsites.net/CodeAnalysis/CheckCode "
       $response = Invoke-RestMethod -Uri $uri -Method Post -ContentType 'application/json' -Body $jsonPayload
       Write-Host "Response: $response"
 
