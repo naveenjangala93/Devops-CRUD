@@ -39,6 +39,19 @@
           }
         }
       },
+      "Octokit/11.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Swashbuckle.AspNetCore/6.4.0": {
         "type": "package",
         "dependencies": {
@@ -383,6 +396,20 @@
         "packageIcon.png"
       ]
     },
+    "Octokit/11.0.1": {
+      "sha512": "fpwF/DxMJyGS+pIXDKQozx0wCIpOfG8VDr10ls+m9Gn9Lz8GslhhApxkKD9JCNO60HRUeMJsedsAS24gCjTD7Q==",
+      "type": "package",
+      "path": "octokit/11.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Octokit.dll",
+        "lib/netstandard2.0/Octokit.xml",
+        "octokit.11.0.1.nupkg.sha512",
+        "octokit.nuspec",
+        "octokit.png"
+      ]
+    },
     "Swashbuckle.AspNetCore/6.4.0": {
       "sha512": "eUBr4TW0up6oKDA5Xwkul289uqSMgY0xGN4pnbOIBqCcN9VKGGaPvHX3vWaG/hvocfGDP+MGzMA0bBBKz2fkmQ==",
       "type": "package",
@@ -468,6 +495,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Newtonsoft.Json >= 13.0.3",
+      "Octokit >= 11.0.1",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
@@ -477,11 +505,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nithi\\source\\repos\\CodeAnalysis\\CodeAnalysis\\CodeAnalysis.csproj",
+      "projectUniqueName": "C:\\Users\\nithi\\Source\\Repos\\Thoparam-sai-nithish\\Devops-CRUD\\CodeAnalysis\\CodeAnalysis.csproj",
       "projectName": "CodeAnalysis",
-      "projectPath": "C:\\Users\\nithi\\source\\repos\\CodeAnalysis\\CodeAnalysis\\CodeAnalysis.csproj",
+      "projectPath": "C:\\Users\\nithi\\Source\\Repos\\Thoparam-sai-nithish\\Devops-CRUD\\CodeAnalysis\\CodeAnalysis.csproj",
       "packagesPath": "C:\\Users\\nithi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nithi\\source\\repos\\CodeAnalysis\\CodeAnalysis\\obj\\",
+      "outputPath": "C:\\Users\\nithi\\Source\\Repos\\Thoparam-sai-nithish\\Devops-CRUD\\CodeAnalysis\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nithi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -492,6 +520,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -519,6 +548,10 @@
             "target": "Package",
             "version": "[13.0.3, )"
           },
+          "Octokit": {
+            "target": "Package",
+            "version": "[11.0.1, )"
+          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.4.0, )"
@@ -543,7 +576,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

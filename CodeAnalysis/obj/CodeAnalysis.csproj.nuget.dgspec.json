@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nithi\\source\\repos\\CodeAnalysis\\CodeAnalysis\\CodeAnalysis.csproj": {}
+    "C:\\Users\\nithi\\Source\\Repos\\Thoparam-sai-nithish\\Devops-CRUD\\CodeAnalysis\\CodeAnalysis.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nithi\\source\\repos\\CodeAnalysis\\CodeAnalysis\\CodeAnalysis.csproj": {
+    "C:\\Users\\nithi\\Source\\Repos\\Thoparam-sai-nithish\\Devops-CRUD\\CodeAnalysis\\CodeAnalysis.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nithi\\source\\repos\\CodeAnalysis\\CodeAnalysis\\CodeAnalysis.csproj",
+        "projectUniqueName": "C:\\Users\\nithi\\Source\\Repos\\Thoparam-sai-nithish\\Devops-CRUD\\CodeAnalysis\\CodeAnalysis.csproj",
         "projectName": "CodeAnalysis",
-        "projectPath": "C:\\Users\\nithi\\source\\repos\\CodeAnalysis\\CodeAnalysis\\CodeAnalysis.csproj",
+        "projectPath": "C:\\Users\\nithi\\Source\\Repos\\Thoparam-sai-nithish\\Devops-CRUD\\CodeAnalysis\\CodeAnalysis.csproj",
         "packagesPath": "C:\\Users\\nithi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nithi\\source\\repos\\CodeAnalysis\\CodeAnalysis\\obj\\",
+        "outputPath": "C:\\Users\\nithi\\Source\\Repos\\Thoparam-sai-nithish\\Devops-CRUD\\CodeAnalysis\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nithi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -49,6 +50,10 @@
               "target": "Package",
               "version": "[13.0.3, )"
             },
+            "Octokit": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -73,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
