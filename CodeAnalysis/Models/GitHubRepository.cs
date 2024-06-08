@@ -5,7 +5,7 @@ namespace CodeAnalysis.Models
     public class GitHubRepository
     {
         private readonly GitHubClient _client;
-        private readonly List<string> _paths_to_be_ignored = new List<string>([".github", ".config", "Properties", "bin","obj"]);
+        private readonly List<string> _paths_to_be_ignored = new List<string>([".github", ".vs", ".config", "Properties", "bin","obj"]);
 
         //CONSTRUCTOR
         public GitHubRepository(string token)
@@ -18,7 +18,8 @@ namespace CodeAnalysis.Models
         public async Task<List<RepositoryContent>> DownloadCodeAsync(string owner, string repo)
         {
             List<RepositoryContent> contents = await GetRepositoryContentsAsync(owner, repo);
-            //var jsonContents = JsonConvert.SerializeObject(contents);
+            //var jsonContents = JsonConvert.SerializeObject(contents,Formatting.Indented);
+            //Console.WriteLine(jsonContents);
             return contents;
         }
 
