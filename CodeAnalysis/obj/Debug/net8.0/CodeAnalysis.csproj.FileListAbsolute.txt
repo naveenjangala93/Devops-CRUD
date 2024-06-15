@@ -1,0 +1,158 @@
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\bin\Debug\net8.0\appsettings.json
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\bin\Debug\net8.0\CodeAnalysis.exe
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\bin\Debug\net8.0\CodeAnalysis.deps.json
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\bin\Debug\net8.0\CodeAnalysis.runtimeconfig.json
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\bin\Debug\net8.0\CodeAnalysis.dll
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\bin\Debug\net8.0\CodeAnalysis.pdb
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\obj\Debug\net8.0\CodeAnalysis.csproj.AssemblyReference.cache
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\obj\Debug\net8.0\CodeAnalysis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\obj\Debug\net8.0\CodeAnalysis.AssemblyInfoInputs.cache
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\obj\Debug\net8.0\CodeAnalysis.AssemblyInfo.cs
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\obj\Debug\net8.0\CodeAnalysis.csproj.CoreCompileInputs.cache
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\obj\Debug\net8.0\CodeAnalysis.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\obj\Debug\net8.0\CodeAnalysis.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\obj\Debug\net8.0\staticwebassets\msbuild.CodeAnalysis.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\obj\Debug\net8.0\staticwebassets\msbuild.build.CodeAnalysis.props
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CodeAnalysis.props
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CodeAnalysis.props
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\obj\Debug\net8.0\scopedcss\bundle\CodeAnalysis.styles.css
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\obj\Debug\net8.0\CodeAnal.A9882A8E.Up2Date
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\obj\Debug\net8.0\CodeAnalysis.dll
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\obj\Debug\net8.0\refint\CodeAnalysis.dll
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\obj\Debug\net8.0\CodeAnalysis.pdb
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\obj\Debug\net8.0\CodeAnalysis.genruntimeconfig.cache
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\obj\Debug\net8.0\ref\CodeAnalysis.dll
+C:\Users\nithi\source\repos\CodeAnalysis\CodeAnalysis\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\appsettings.json
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\CodeAnalysis.exe
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\CodeAnalysis.deps.json
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\CodeAnalysis.runtimeconfig.json
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\CodeAnalysis.dll
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\CodeAnalysis.pdb
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\obj\Debug\net8.0\CodeAnalysis.csproj.AssemblyReference.cache
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\obj\Debug\net8.0\CodeAnalysis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\obj\Debug\net8.0\CodeAnalysis.AssemblyInfoInputs.cache
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\obj\Debug\net8.0\CodeAnalysis.AssemblyInfo.cs
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\obj\Debug\net8.0\CodeAnalysis.csproj.CoreCompileInputs.cache
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\obj\Debug\net8.0\CodeAnalysis.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\obj\Debug\net8.0\CodeAnalysis.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\obj\Debug\net8.0\CodeAnalysis.sourcelink.json
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\obj\Debug\net8.0\staticwebassets\msbuild.CodeAnalysis.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\obj\Debug\net8.0\staticwebassets\msbuild.build.CodeAnalysis.props
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CodeAnalysis.props
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CodeAnalysis.props
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\obj\Debug\net8.0\scopedcss\bundle\CodeAnalysis.styles.css
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\obj\Debug\net8.0\CodeAnal.A9882A8E.Up2Date
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\obj\Debug\net8.0\CodeAnalysis.dll
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\obj\Debug\net8.0\refint\CodeAnalysis.dll
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\obj\Debug\net8.0\CodeAnalysis.pdb
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\obj\Debug\net8.0\CodeAnalysis.genruntimeconfig.cache
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\obj\Debug\net8.0\ref\CodeAnalysis.dll
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\Octokit.dll
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\appsettings.json
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\CodeAnalysis.exe
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\CodeAnalysis.deps.json
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\CodeAnalysis.runtimeconfig.json
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\CodeAnalysis.dll
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\CodeAnalysis.pdb
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\Octokit.dll
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\obj\Debug\net8.0\CodeAnalysis.csproj.AssemblyReference.cache
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\obj\Debug\net8.0\CodeAnalysis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\obj\Debug\net8.0\CodeAnalysis.AssemblyInfoInputs.cache
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\obj\Debug\net8.0\CodeAnalysis.AssemblyInfo.cs
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\obj\Debug\net8.0\CodeAnalysis.csproj.CoreCompileInputs.cache
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\obj\Debug\net8.0\CodeAnalysis.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\obj\Debug\net8.0\CodeAnalysis.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\obj\Debug\net8.0\staticwebassets\msbuild.CodeAnalysis.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\obj\Debug\net8.0\staticwebassets\msbuild.build.CodeAnalysis.props
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CodeAnalysis.props
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CodeAnalysis.props
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\obj\Debug\net8.0\scopedcss\bundle\CodeAnalysis.styles.css
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\obj\Debug\net8.0\CodeAnal.A9882A8E.Up2Date
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\obj\Debug\net8.0\CodeAnalysis.dll
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\obj\Debug\net8.0\refint\CodeAnalysis.dll
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\obj\Debug\net8.0\CodeAnalysis.pdb
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\obj\Debug\net8.0\CodeAnalysis.genruntimeconfig.cache
+C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\obj\Debug\net8.0\ref\CodeAnalysis.dll

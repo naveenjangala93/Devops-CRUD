@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Naveen kumar Jangala\\Downloads\\Devops-CRUD-master (1)\\Devops-CRUD-master\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BBB7A6CA-3371-47BD-99BA-A1FBF539788C}|CodeAnalysis\\CodeAnalysis.csproj|c:\\users\\naveen kumar jangala\\downloads\\devops-crud-master (1)\\devops-crud-master\\codeanalysis\\models\\githubrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBB7A6CA-3371-47BD-99BA-A1FBF539788C}|CodeAnalysis\\CodeAnalysis.csproj|solutionrelative:codeanalysis\\models\\githubrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GitHubRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Naveen kumar Jangala\\Downloads\\Devops-CRUD-master (1)\\Devops-CRUD-master\\CodeAnalysis\\Models\\GitHubRepository.cs",
+              "RelativeDocumentMoniker": "CodeAnalysis\\Models\\GitHubRepository.cs",
+              "ToolTip": "C:\\Users\\Naveen kumar Jangala\\Downloads\\Devops-CRUD-master (1)\\Devops-CRUD-master\\CodeAnalysis\\Models\\GitHubRepository.cs",
+              "RelativeToolTip": "CodeAnalysis\\Models\\GitHubRepository.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBoAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T20:21:35.327Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

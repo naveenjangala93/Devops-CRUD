@@ -1,0 +1,55 @@
+trigger:
+- master  # This pipeline will run whenever there are changes to the master branch.
+steps:
+
+
+
+
+- task: PowerShell@2
+  displayName: 'Code download'
+  inputs:
+    targetType: inline
+    script: |
+      $uri = "https://raw.githubusercontent.com/Thoparam-sai-nithish/DevOps/master/DevOpsTests/UnitTestDemoTests.cs"
+      $fileContent = Invoke-RestMethod -Uri $uri -Method Get
+      echo "Downloaded File Content is: $fileContent"
+
+      # CHECK KEYWORDS
+      $checkKeywordsUri = "https://codeanalysis.azurewebsites.net/CodeAnalysis/CheckKeywords"
+      $checkeywordsBody = @{
+          "CodeSnippet" = $fileContent
+      } | ConvertTo-Json
+      $response = Invoke-RestMethod -Uri $checkKeywordsUri -Method Post -ContentType "application/json" -Body $checkeywordsBody
+      echo "CHECK KEYWORDS RESPONSE : $response"
+
+      # CHECK CODE
+      $checkCodeUri = "https://codeanalysis.azurewebsites.net/CodeAnalysis/CheckCode"
+      $checkCodeBody = $fileContent | ConvertTo-Json
+      $response = Invoke-RestMethod -Uri $checkCodeUri -Method Post -ContentType "application/json" -Body $checkCodeBody
+      echo "CHECK CODE RESPONSE : $response"
+- task: PowerShell@2
+  displayName: 'Send POST Request'
+  inputs:
+    targetType: inline
+    script: |
+        # Define the URL for the POST request
+        $uri = "https://codeanalysis.azurewebsites.net/CodeAnalysis/Post?age=45&name=nithih"
+
+        # Define the JSON payload to send in the request body
+        $jsonPayload = @{
+            age = "34"
+            name = "Nithish "
+            # Add more key-value pairs as needed for your API
+        } | ConvertTo-Json
+
+        # Send the POST request with the JSON payload
+        try {
+            $response = Invoke-RestMethod -Uri $uri -Method Post -ContentType 'application/json' -Body $jsonPayload
+
+            # Output the response from the API
+            echo $response
+        } catch {
+            # Handle any exceptions that occur during the API request
+            Write-Error "Failed to send POST request: $_"
+            exit 1  # Fail the task if the request fails
+        }
