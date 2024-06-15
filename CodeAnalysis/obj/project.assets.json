@@ -1484,11 +1484,16 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\Naveen kumar Jangala\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\nithi\\.nuget\\packages\\": {}
+>>>>>>> d7fa25a00289b4a1537415d6bb3996f3c15c4622
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Naveen kumar Jangala\\Downloads\\Devops-CRUD-master (1)\\Devops-CRUD-master\\CodeAnalysis\\CodeAnalysis.csproj",
       "projectName": "CodeAnalysis",
       "projectPath": "C:\\Users\\Naveen kumar Jangala\\Downloads\\Devops-CRUD-master (1)\\Devops-CRUD-master\\CodeAnalysis\\CodeAnalysis.csproj",
@@ -1497,6 +1502,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Naveen kumar Jangala\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "C:\\Users\\nithi\\Source\\Repos\\Thoparam-sai-nithish\\Devops-CRUD\\CodeAnalysis\\CodeAnalysis.csproj",
+      "projectName": "CodeAnalysis",
+      "projectPath": "C:\\Users\\nithi\\Source\\Repos\\Thoparam-sai-nithish\\Devops-CRUD\\CodeAnalysis\\CodeAnalysis.csproj",
+      "packagesPath": "C:\\Users\\nithi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nithi\\Source\\Repos\\Thoparam-sai-nithish\\Devops-CRUD\\CodeAnalysis\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\nithi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> d7fa25a00289b4a1537415d6bb3996f3c15c4622
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1504,6 +1519,10 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+<<<<<<< HEAD
+=======
+        "C:\\Program Files\\dotnet\\library-packs": {},
+>>>>>>> d7fa25a00289b4a1537415d6bb3996f3c15c4622
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1563,7 +1582,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+>>>>>>> d7fa25a00289b4a1537415d6bb3996f3c15c4622
       }
     }
   }

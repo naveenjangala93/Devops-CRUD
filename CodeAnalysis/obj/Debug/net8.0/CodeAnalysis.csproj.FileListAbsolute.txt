@@ -94,6 +94,7 @@ C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\De
 C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+<<<<<<< HEAD
 C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\appsettings.json
 C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\bin\Debug\net8.0\CodeAnalysis.exe
@@ -156,3 +157,5 @@ C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-maste
 C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\obj\Debug\net8.0\CodeAnalysis.pdb
 C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\obj\Debug\net8.0\CodeAnalysis.genruntimeconfig.cache
 C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\obj\Debug\net8.0\ref\CodeAnalysis.dll
+=======
+>>>>>>> d7fa25a00289b4a1537415d6bb3996f3c15c4622

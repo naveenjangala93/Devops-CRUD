@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
@@ -48,6 +49,58 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: .net-app
+=======
+# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
+# More GitHub Actions for Azure: https://github.com/Azure/actions
+
+name: Build and deploy ASP.Net Core app to Azure Web App - CodeAnalysis
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up .NET Core
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: '3.1'
+          include-prerelease: true
+
+      - name: Build with dotnet
+        run: dotnet build --configuration Release
+
+      - name: dotnet publish
+        run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
+
+      - name: Upload artifact for deployment job
+        uses: actions/upload-artifact@v3
+        with:
+          name: .net-app
+          path: ${{env.DOTNET_ROOT}}/myapp
+
+  deploy:
+    runs-on: windows-latest
+    needs: build
+    environment:
+      name: 'Production'
+      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+    permissions:
+      id-token: write #This is required for requesting the JWT
+
+    steps:
+      - name: Download artifact from build job
+        uses: actions/download-artifact@v3
+        with:
+          name: .net-app
+>>>>>>> d7fa25a00289b4a1537415d6bb3996f3c15c4622
       
       - name: Login to Azure
         uses: azure/login@v1
@@ -55,6 +108,7 @@ jobs:
           client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_29B0A83830384913AA4042C7A597E1CB }}
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_F80023279A964BB580066C91445C1094 }}
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_3091DB865DE44FB3B996A18485B68DA6 }}
+<<<<<<< HEAD
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
@@ -63,4 +117,14 @@ jobs:
           app-name: 'CodeAnalysis'
           slot-name: 'Production'
           package: .
+=======
+
+      - name: Deploy to Azure Web App
+        id: deploy-to-webapp
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: 'CodeAnalysis'
+          slot-name: 'Production'
+          package: .
+>>>>>>> d7fa25a00289b4a1537415d6bb3996f3c15c4622
           

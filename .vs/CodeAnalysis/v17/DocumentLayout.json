@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\Naveen kumar Jangala\\Downloads\\Devops-CRUD-master (1)\\Devops-CRUD-master\\",
   "Documents": [
     {
@@ -7,6 +8,10 @@
       "RelativeMoniker": "D:0:0:{BBB7A6CA-3371-47BD-99BA-A1FBF539788C}|CodeAnalysis\\CodeAnalysis.csproj|solutionrelative:codeanalysis\\models\\githubrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
+=======
+  "WorkspaceRootPath": "C:\\Users\\nithi\\source\\repos\\Thoparam-sai-nithish\\Devops-CRUD\\",
+  "Documents": [],
+>>>>>>> d7fa25a00289b4a1537415d6bb3996f3c15c4622
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,6 +19,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -32,6 +38,13 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T20:21:35.327Z",
               "EditorCaption": ""
+=======
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+>>>>>>> d7fa25a00289b4a1537415d6bb3996f3c15c4622
             }
           ]
         }

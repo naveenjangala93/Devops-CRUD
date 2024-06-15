@@ -17,11 +17,19 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CodeAnalysis
 build_property.RootNamespace = CodeAnalysis
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis\
+=======
+build_property.ProjectDir = C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis\
+>>>>>>> d7fa25a00289b4a1537415d6bb3996f3c15c4622
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+<<<<<<< HEAD
 build_property.MSBuildProjectDirectory = C:\Users\Naveen kumar Jangala\Downloads\Devops-CRUD-master (1)\Devops-CRUD-master\CodeAnalysis
+=======
+build_property.MSBuildProjectDirectory = C:\Users\nithi\Source\Repos\Thoparam-sai-nithish\Devops-CRUD\CodeAnalysis
+>>>>>>> d7fa25a00289b4a1537415d6bb3996f3c15c4622
 build_property._RazorSourceGeneratorDebug = 
